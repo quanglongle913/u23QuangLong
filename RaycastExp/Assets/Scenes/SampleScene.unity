@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414726, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 477921762}
   - component: {fileID: 477921761}
   m_Layer: 6
-  m_Name: Cube (3)
+  m_Name: Cube 4
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 590689991}
   - component: {fileID: 590689990}
   m_Layer: 6
-  m_Name: Cube (1)
+  m_Name: Cube 2
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 834276611}
   - component: {fileID: 834276610}
   m_Layer: 6
-  m_Name: Cube (2)
+  m_Name: Cube 1
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -604,7 +604,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 1610836591}
   - component: {fileID: 1610836595}
   m_Layer: 6
-  m_Name: Cube
+  m_Name: Cube 3
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +786,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1610836595
 MonoBehaviour:
