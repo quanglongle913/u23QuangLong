@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   stats:
-    damage: 0
-    defense: 0
-    maxHp: 0
-    moveSpeed: 0
+    damage: 50
+    defense: 2
+    maxHp: 100
+    moveSpeed: 10
