@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Kunai : MonoBehaviour
 {
+
+
+    public GameObject hitVFX;
     public Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -24,7 +27,9 @@ public class Kunai : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag=="Enemy") {
-            collision.GetComponent<Character>().OnHit(30f);
+            collision.GetComponent<Character>().OnHit(26f);
+            //Debug.Log("onhit hit .....");
+            Instantiate(hitVFX,transform.position,transform.rotation);
             OnDespawn();
         }
     }
